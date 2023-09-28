@@ -1,0 +1,10 @@
+package com.neotech.review04;
+
+import com.neotech.utils.CommonMethods;
+
+public class Test extends CommonMethods{
+	
+	
+	
+
+}

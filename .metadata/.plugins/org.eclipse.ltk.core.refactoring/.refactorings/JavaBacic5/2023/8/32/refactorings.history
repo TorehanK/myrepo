@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.neotech.lesson27.Homework.java&apos; to &apos;Registration.java&apos;&#x0D;&#x0A;- Original project: &apos;JavaBacic5&apos;&#x0D;&#x0A;- Original element: &apos;com.neotech.lesson27.Homework.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.neotech.lesson27.Registration.java&apos;" description="Rename compilation unit &apos;Homework.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.neotech.lesson27{Homework.java" name="Registration.java" references="false" stamp="1691159751032" version="1.0"/>
+</session>

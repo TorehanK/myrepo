@@ -1,0 +1,24 @@
+package com.neotech.lesson12;
+
+import com.neotech.utils.BaseClass;
+
+public class oylesine extends BaseClass{
+
+	
+	public static void main(String[] args) throws InterruptedException {
+		
+		setUp();
+		
+		
+		
+		Thread.sleep(2000);
+		
+		
+		
+		
+		
+		tearDown();
+		
+		
+	}
+}

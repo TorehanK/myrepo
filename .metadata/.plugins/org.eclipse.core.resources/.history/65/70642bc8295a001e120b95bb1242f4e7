@@ -1,0 +1,40 @@
+package com.neotech.lesson12;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.neotech.utils.BaseClass;
+
+public class Homework1 extends BaseClass{
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		// https://jqueryui.com/tooltip/
+		
+		setUp();
+		
+		//Use the CommonMethods wait()
+		//dont confuse with Thread.sleep() - 
+		wait(2);
+		
+		switchToFrame();
+		WebElement ageTxt = driver.findElement(By.id(""));
+		sendText(ageTxt, "Ahmet");
+		
+		wait(2);
+		
+		driver.switchTo().defaultContent();
+		
+		//switch to the frame using WebElement
+		switchToFrame(driver.findElement(By.cssSelector("iframe.demo-frame")));
+		sendText(driver.findElement(By.id("age")));
+		
+		
+		
+		tearDown();
+		
+		
+		
+		
+	}
+}

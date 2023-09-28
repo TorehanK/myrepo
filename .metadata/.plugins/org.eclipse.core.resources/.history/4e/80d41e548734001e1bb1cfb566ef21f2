@@ -1,0 +1,22 @@
+package com.neotech.review09;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionIntro {
+	public static void main(String[] args) {
+		
+	
+	//List is an Interface
+	
+//	List<String> names = new List<>(); ----> cannot create an object of interface
+	
+	List<String> africa = new ArrayList<>(); //Up-Casting
+	africa.add("Moroco");
+	africa.add("Kenya");
+	africa.add("Senegal");
+	africa.add(0,"Congo"); // Adding to the list with an index
+	
+	System.out.println(africa);
+}
+}

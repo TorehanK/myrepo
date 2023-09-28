@@ -1,0 +1,7 @@
+#Onder is very happy!
+#Sun Aug 20 12:01:21 EDT 2023
+Age=50
+FirstName=Mesut
+LastName=Erol
+SSN=643-82-1985
+School=Neotech

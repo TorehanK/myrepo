@@ -1,0 +1,48 @@
+package com.neotech.lesson12;
+
+public class Homework1 {
+
+	public static void main(String[] args) {
+
+		//create an array on integers and calculate the sum
+		//of all elements in an array
+		
+		int[] array = new int[4];
+		array[0] = 12;
+		array[1] = 55;
+		array[2] = 22;
+		array[3] = 44;
+		
+		int sum = 0;
+		for(int i = 0; i <= array.length-1; i++)
+		{
+			sum+=array[i];
+		}
+		System.out.println("The sum of all the elements are: " + sum);
+
+	}
+	
+	
+//	String[] countries = {"Albania", "Turkiye", "Ukraine", "Mongolia", "Bolognia"}
+//	
+//	for(int i = 0; i < countries.length; i++)
+//	{
+//		if(countries[i].equals("Albania"))
+//		{
+//		System.out.println(countries[i] + "-Tirana");	
+//		}
+//	}
+	
+	
+			
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+

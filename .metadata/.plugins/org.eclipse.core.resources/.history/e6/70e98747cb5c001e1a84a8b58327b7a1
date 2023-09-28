@@ -1,0 +1,34 @@
+package com.neotech.lesson13;
+
+public class Homework1 {
+
+//	Homework 1:
+//		Open chrome browser
+//		Go to https://demo.guru99.com/test/drag_drop.html
+//		Drag the following blocks in different ways
+//		Drag BANK to DEBIT SIDE
+//		Drag SALES to CREDIT SIDE
+//		Drag 5000 to DEBIT SIDE
+//		Drag 5000 to CREDIT SIDE
+//		Close the browser
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+}

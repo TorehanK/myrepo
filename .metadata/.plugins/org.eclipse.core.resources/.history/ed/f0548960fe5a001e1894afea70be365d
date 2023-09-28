@@ -1,0 +1,29 @@
+package com.neotech.review04;
+
+import com.neotech.utils.CommonMethods;
+
+public class CalendarHandling extends CommonMethods{
+
+	// Go to this link: https://jqueryui.com/
+		// Click on Datepicker from the left menu
+		// Show the Calendar
+		// Select 12/25/2023 from the Calendar
+		// Verify that you have selected 12/25/2023
+	
+	public static void main(String[] args) {
+		
+		setUp();
+		
+		
+		
+		wait(3);
+		
+		
+		
+		
+		
+		
+		
+		tearDown();
+	}
+}

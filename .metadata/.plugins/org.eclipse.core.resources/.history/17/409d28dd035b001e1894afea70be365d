@@ -1,0 +1,29 @@
+package com.neotech.lesson12;
+
+import org.openqa.selenium.By;
+
+import com.neotech.utils.BaseClass;
+
+public class Hamgin extends BaseClass{
+	
+	public static void main(String[] args) throws InterruptedException {
+		
+		setUp();
+		
+		Thread.sleep(1000);
+		
+		driver.findElement(By.className("ytd-searchbox-spt")).sendKeys("Salak hamgin kurtce izle");
+		
+		
+		
+		
+		
+		driver.findElement(By.xpath("//*[@id=\"search-icon-legacy\"]/yt-icon/yt-icon-shape/icon-shape/div")).click();
+		
+		
+		Thread.sleep(2000);
+		tearDown();
+		
+	}
+
+}

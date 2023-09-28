@@ -1,0 +1,29 @@
+package com.neotech.review06;
+
+public class ToCharArray {
+
+	public static void main(String[] args) {
+
+		
+		String longStr = "I am very happy today because its a weekend";
+		
+		System.out.println("String length ----> " + longStr.length());
+		
+		char[] charArray = longStr.toCharArray();
+		System.out.println("char[] leength ----> " + charArray.length);
+		
+		//print the array
+		for(char el : charArray) {
+			System.out.print(el + "|");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

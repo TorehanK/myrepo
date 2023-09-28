@@ -1,0 +1,7 @@
+#Added phone number
+#Sat Aug 19 13:48:38 EDT 2023
+browser=firefox
+password=Admin@1
+phoneNumber=555 344 3443
+url=www.neotechacademy.com
+username=neo

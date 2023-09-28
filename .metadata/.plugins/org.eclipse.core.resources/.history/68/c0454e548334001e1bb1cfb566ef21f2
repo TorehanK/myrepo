@@ -1,0 +1,26 @@
+package com.neotech.review09;
+
+import java.util.ArrayList;
+
+public class WrapperList {
+
+	public static void main(String[] args) {
+
+		// ArrayList can only store objects/classes
+		// ArrayList<int> nums = new ArrayList<>();
+
+		ArrayList<Integer> numbers = new ArrayList<>();
+		
+		boolean isEmpty = numbers.isEmpty();
+		System.out.println("Is it empty? " + isEmpty);
+		System.out.println("The size is -> " + numbers.size());
+		
+		numbers.add(new Integer(4)); // This is the long way
+		numbers.add(6); // auto-boxing
+		numbers.add(8);
+		numbers.add(3);
+		
+		System.out.println("The size is -> " + numbers.size());
+
+	}
+}

@@ -1,0 +1,4 @@
+browser= firefox
+url= www.neotechacademy.com
+username= neo
+password= Admin@1
